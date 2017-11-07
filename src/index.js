@@ -258,7 +258,7 @@ export default class extends Component {
 
 
     this.internals = {
-      ...this.internals,
+      ...initState,
       isScrolling: false
     };
     return initState
